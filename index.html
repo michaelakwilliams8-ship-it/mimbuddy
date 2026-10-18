@@ -1,348 +1,43 @@
 <!doctype html>
 <html lang="en-AU">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MimBuddy — The support layer for kids in hospital</title>
-  <meta name="description" content="Speaks their language. Shows where it hurts. Tells them what's next. The bedside tool for supporting neurodivergent patients, from the ED to the ward.">
-  <link rel="canonical" href="https://mimbuddy.com.au/">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/favicon.png" type="image/png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <meta name="theme-color" content="#8A9E88">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="MimBuddy">
-  <meta property="og:locale" content="en_AU">
-  <meta property="og:url" content="https://mimbuddy.com.au/">
-  <meta property="og:title" content="MimBuddy — The support layer for kids in hospital">
-  <meta property="og:description" content="Speaks their language. Shows where it hurts. Tells them what's next. The bedside tool for supporting neurodivergent patients, from the ED to the ward.">
-  <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0767/1893/2201/files/bedside.kids.Mimhub.jpg?v=1774153662">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Comfortaa:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
-  </svg>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a href="/" class="brand"><img class="brand-koala" src="/assets/mimbuddy-koala.png" alt="" width="256" height="256"><img class="brand-word" src="/assets/mimbuddy-wordmark.png" alt="MimBuddy, home" width="640" height="181"></a>
-    <nav class="audience" aria-label="Main">
-      <a href="/" aria-current="page">For hospitals</a>
-      <a href="/home">For home</a>
-      <a href="/about">About us</a>
-    </nav>
-    <a href="#book" class="btn btn-small">Book a 10-min call</a>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-heading">
-      <div>
-        <p class="kicker">For hospitals</p>
-        <h1 id="hero-heading" class="hero-promise">The support layer for kids in <em>hospital.</em></h1>
-        <p class="lines">Speaks their language.<br>Shows where it hurts.<br>Tells them what's next.</p>
-        <p class="lead">The bedside tool for supporting neurodivergent patients, from the ED to the ward.</p>
-        <a href="#book" class="btn">Book a 10-min call →</a>
-      </div>
-      <img class="hero-img" src="https://cdn.shopify.com/s/files/1/0767/1893/2201/files/bedside.kids.Mimhub.jpg?v=1774153662" alt="The MimBuddy on a bedside table, its screen showing Kiki the Koala" width="1200" height="800" fetchpriority="high">
-    </section>
+    <!-- Title, description, canonical and page-specific og/twitter tags are
+         added per page at build time from src/seo.ts -->
+    <title>MimBuddy</title>
+    <meta name="theme-color" content="#8A9E88" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MimBuddy" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0767/1893/2201/files/bedside.kids.Mimhub.jpg?v=1774153662" />
+    <meta property="og:image:alt" content="The MimBuddy on a bedside table, its screen showing Kiki the Koala" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="index, follow" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-    <section class="band tint" aria-labelledby="helps-heading">
-      <div class="wrap">
-        <h2 id="helps-heading">How MimBuddy helps</h2>
-        <ul class="cards cards-3 helps-cards">
-          <li class="card">
-            <h3>You</h3>
-            <ul class="ticks">
-              <li>Talks to each patient in the language that best suits them</li>
-              <li>Pain scale and pain visuals, so they can show you where it hurts</li>
-              <li>Social stories and procedure information, so you can explain before you act</li>
-              <li>CARE in your hands at the bedside</li>
-            </ul>
-          </li>
-          <li class="card">
-            <h3>Your ED</h3>
-            <ul class="ticks">
-              <li>An About me profile from triage: how they communicate and what helps</li>
-              <li>Timers to help with waits</li>
-              <li>Calming activities, so distress is met with regulation, not security</li>
-              <li>Travels with the patient from triage to discharge</li>
-            </ul>
-          </li>
-          <li class="card">
-            <h3>Your hospital</h3>
-            <ul class="ticks">
-              <li>Customised for your wards, your procedures and your ED</li>
-              <li>Reasonable adjustments, required under the Disability Discrimination Act 1992</li>
-              <li>Supports the Australian Charter of Healthcare Rights</li>
-              <li>Ready for where the NSQHS Standards are heading</li>
-            </ul>
-          </li>
-        </ul>
-        <a href="#book" class="btn">Book a 10-min call →</a>
-      </div>
-    </section>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "MimBuddy",
+      "brand": { "@type": "Brand", "name": "MimBuddy" },
+      "category": "Assistive technology",
+      "url": "https://mimbuddy.com.au/",
+      "description": "The bedside tool for supporting neurodivergent patients, from the ED, admission, to home. A standalone hardware device with About me profiles, customised social stories, procedure information, the day's flow, visual routine boards, wait timers, calming activities, feelings and pain scale boards, staff profiles, and a mascot that speaks the patient's language and the language of their support needs."
+    }
+    </script>
+  </head>
 
-    <section class="band dark" aria-labelledby="problem-heading">
-      <div class="wrap">
-        <h2 id="problem-heading">The problem</h2>
-        <blockquote class="story">She came to the emergency department in pain. Her distress didn't look calm, so security walked her out.</blockquote>
-        <p class="problem-lead">Neurodivergent kids face barriers at every step of a hospital visit: communicating, feeling understood and getting the care they need.</p>
-      </div>
-    </section>
-
-    <section id="journey" class="band" aria-labelledby="journey-heading">
-      <div class="wrap">
-        <h2 id="journey-heading">The patient journey</h2>
-        <ol class="journey-steps">
-          <li>
-            <h3><span class="step">1</span>Arriving</h3>
-            <p class="barrier">Many arrive already in crisis, in an unfamiliar place, with people who don't know them.</p>
-            <p class="stat"><strong>More than half (55%)</strong> of autistic children and children with intellectual disability who came to a leading Australian children's emergency department with behaviours of concern arrived by ambulance.<sup><a href="#src-1" aria-label="Source 1">1</a></sup></p>
-            <p class="answer"><strong>MimBuddy:</strong> an About me profile, so staff know from the first minute how they communicate and what helps.</p>
-          </li>
-          <li>
-            <h3><span class="step">2</span>Waiting</h3>
-            <p class="barrier">Bright lights, noise and not knowing how long.</p>
-            <p class="stat">Australian parents named <strong>lights, sounds and waiting areas</strong> as things that made their autistic child more anxious in hospital.<sup><a href="#src-2" aria-label="Source 2">2</a></sup></p>
-            <p class="answer"><strong>MimBuddy:</strong> wait timers, and calming activities that up-regulate or down-regulate.</p>
-          </li>
-          <li>
-            <h3><span class="step">3</span>Saying what's wrong</h3>
-            <p class="barrier">Pain and symptoms are hard to communicate, and easy to miss.</p>
-            <p class="stat"><strong>About 1 in 4</strong> autistic children use fewer than five spoken words.<sup><a href="#src-3" aria-label="Source 3">3</a></sup> Pain in children with cognitive impairment remains <strong>under-recognised and under-managed</strong>.<sup><a href="#src-4" aria-label="Source 4">4</a></sup> In one study, many autistic children showed little outward pain during a blood test while their body's stress response was higher.<sup><a href="#src-5" aria-label="Source 5">5</a></sup></p>
-            <p class="answer"><strong>MimBuddy:</strong> a pain scale board, pain visuals, a feelings board, and a mascot that speaks their language.</p>
-          </li>
-          <li>
-            <h3><span class="step">4</span>Tests and procedures</h3>
-            <p class="barrier">Fear of the unknown, with no warning of what's coming.</p>
-            <p class="stat"><strong>24% were physically restrained and 26% were sedated</strong> in the same Australian children's emergency department study.<sup><a href="#src-1" aria-label="Source 1">1</a></sup> Autistic children presenting with mental health concerns were <strong>about 2.8 times as likely</strong> to be physically restrained.<sup><a href="#src-6" aria-label="Source 6">6</a></sup></p>
-            <p class="answer"><strong>MimBuddy:</strong> social stories and information about procedures, like getting a blood test, before they happen.</p>
-          </li>
-          <li>
-            <h3><span class="step">5</span>On the ward</h3>
-            <p class="barrier">Longer stays, unfamiliar faces, and staff who were never trained for this.</p>
-            <p class="stat">Children with intellectual disability in two Sydney children's hospitals stayed <strong>about 27% longer</strong> (a median of 100.5 hours vs 79).<sup><a href="#src-7" aria-label="Source 7">7</a></sup> Most of 693 Australian nurses surveyed had <strong>no undergraduate teaching</strong> on autism or intellectual disability.<sup><a href="#src-8" aria-label="Source 8">8</a></sup></p>
-            <p class="answer"><strong>MimBuddy:</strong> the day's flow (today, it's an X-ray), visual routine boards, staff profiles and support with daily living.</p>
-          </li>
-          <li>
-            <h3><span class="step">6</span>Going home, and after</h3>
-            <p class="barrier">Care that's missed or delayed shows up later.</p>
-            <p class="stat">In the US, <strong>nearly 1 in 5 (18.8%)</strong> autistic children went without healthcare they needed.<sup><a href="#src-9" aria-label="Source 9">9</a></sup> In NSW, people with intellectual disability are admitted for <strong>preventable conditions at several times</strong> the general rate,<sup><a href="#src-10" aria-label="Source 10">10</a></sup> and <strong>38% of deaths</strong> of adults with intellectual disability were potentially avoidable, compared with 17% of others.<sup><a href="#src-11" aria-label="Source 11">11</a></sup></p>
-            <p class="answer"><strong>MimBuddy:</strong> travels with the patient from triage to discharge.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="band tint" aria-labelledby="best-heading">
-      <div class="wrap split">
-        <div>
-          <h2 id="best-heading">You're doing your best</h2>
-          <p>You went into healthcare to help people. But most of us were never taught how to support neurodivergent patients.</p>
-          <p class="statement">It's not a people problem. It's a tools problem.</p>
-        </div>
-        <ul class="cards cards-stack">
-          <li class="card"><span class="figure">2.5 hours</span><p>Median compulsory intellectual disability content in Australian medical degrees, with no significant increase since 1995.<sup><a href="#src-12" aria-label="Source 12">12</a></sup></p></li>
-          <li class="card"><span class="figure">More than half</span><p>of Australian nursing schools (16 of 31) taught none.<sup><a href="#src-13" aria-label="Source 13">13</a></sup></p></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="band" aria-labelledby="rights-heading">
-      <div class="wrap narrow">
-        <h2 id="rights-heading">Every patient has the same rights</h2>
-        <p>Under the Australian Charter of Healthcare Rights, every patient has the right to:</p>
-        <table class="rights">
-          <thead>
-            <tr><th scope="col">Right</th><th scope="col">What it means for a neurodivergent patient</th></tr>
-          </thead>
-          <tbody>
-            <tr><th scope="row">Access</th><td>Care that meets their needs, not removal when distress doesn't look calm</td></tr>
-            <tr><th scope="row">Safety</th><td>An environment that feels safe, including the sensory environment</td></tr>
-            <tr><th scope="row">Respect</th><td>Their identity, communication style and choices respected</td></tr>
-            <tr><th scope="row">Partnership</th><td>Decisions made with them and the people they trust</td></tr>
-            <tr><th scope="row">Information</th><td>Information they can understand, in a format that works for them</td></tr>
-            <tr><th scope="row">Privacy</th><td>Their information kept private</td></tr>
-            <tr><th scope="row">Give feedback</th><td>A way to speak up without it affecting their care</td></tr>
-          </tbody>
-        </table>
-        <p>Reasonable adjustments aren't optional. They're required under the Disability Discrimination Act 1992.</p>
-        <p>In New Zealand, the Code of Health and Disability Services Consumers' Rights includes the right to effective communication.</p>
-        <div class="why-now">
-          <p class="kicker">Why now</p>
-          <p>The NSQHS Standards third edition is in consultation, and disability health experts are pushing for hospitals to be required to provide identified reasonable adjustments, train clinicians in identifying and providing reasonable adjustments, and monitor and audit whether they have been provided.</p>
-        </div>
-        <p class="statement">These rights aren't extra work. They're why you deserve the right tools.</p>
-      </div>
-    </section>
-
-    <section class="band tint" aria-labelledby="care-heading">
-      <div class="wrap">
-        <h2 id="care-heading">The CARE Framework</h2>
-        <p>Recommended by Yellow Ladybugs, an autistic-led organisation:</p>
-        <ul class="cards cards-4">
-          <li class="card"><span class="letter" aria-hidden="true">C</span><h3>Communication</h3><p>Adapt to how each person communicates.</p></li>
-          <li class="card"><span class="letter" aria-hidden="true">A</span><h3>Autonomy</h3><p>Presume competence and share decisions.</p></li>
-          <li class="card"><span class="letter" aria-hidden="true">R</span><h3>Reduce barriers</h3><p>Predictability, fewer sensory demands.</p></li>
-          <li class="card"><span class="letter" aria-hidden="true">E</span><h3>Empathy</h3><p>Take pain seriously and lead with curiosity.</p></li>
-        </ul>
-        <p class="statement">MimBuddy puts CARE in your hands at the bedside.</p>
-      </div>
-    </section>
-
-    <section class="band" aria-labelledby="how-heading">
-      <div class="wrap">
-        <h2 id="how-heading">How it works</h2>
-        <ol class="steps">
-          <li><span class="num" aria-hidden="true">1</span><h3>Set up</h3><p>We customise MimBuddy for your hospital: your wards, your procedures, your ED.</p></li>
-          <li><span class="num" aria-hidden="true">2</span><h3>Personalise</h3><p>Each patient's communication style, sensory needs and preferences are added in minutes.</p></li>
-          <li><span class="num" aria-hidden="true">3</span><h3>Support</h3><p>Staff and patients use it together, and it travels with the patient from triage to discharge.</p></li>
-        </ol>
-        <!-- TODO: replace [X] with the real time per patient before going live -->
-        <p class="your-part">Your part? About [X] minutes per patient.</p>
-        <a href="#book" class="btn">Book a 10-min call →</a>
-      </div>
-    </section>
-
-    <section class="band tint" aria-labelledby="inside-heading">
-      <div class="wrap">
-        <h2 id="inside-heading">What's inside</h2>
-        <div class="split meet">
-          <div>
-            <p>It brings the tools families and clinicians already trust into one standalone device.</p>
-            <p><strong>Standalone by design.</strong> A dedicated hardware device, built that way for safety.</p>
-          </div>
-          <img src="/__l5e/assets-v1/340ad477-b2e5-4099-8ef6-f0f8fd87a14d/mimbuddy-closeup.png" alt="Close-up of the MimBuddy device showing its visual schedule, Kiki the Koala and icon buttons" loading="lazy" decoding="async">
-        </div>
-        <ul class="cards cards-3 inside">
-          <li class="card"><h3>Social stories</h3><p>Customised social stories, like getting a blood test.</p></li>
-          <li class="card"><h3>About me</h3><p>User profiles about the patient.</p></li>
-          <li class="card"><h3>Activities of daily living</h3><p>Support for activities of daily living during admissions and ED visits.</p></li>
-          <li class="card"><h3>Visual routine boards</h3></li>
-          <li class="card"><h3>Staff profiles</h3></li>
-          <li class="card"><h3>Procedures</h3><p>Information about procedures.</p></li>
-          <li class="card"><h3>Daily flow</h3><p>Set up the day. Today, it's an X-ray.</p></li>
-          <li class="card"><h3>Timers</h3><p>To help with waits.</p></li>
-          <li class="card"><h3>Calming activities</h3><p>Activities that up-regulate or down-regulate, depending on the patient's needs.</p></li>
-          <li class="card"><h3>Feelings board</h3><p>So the patient can talk about and process their feelings, connect with caregivers and communicate.</p></li>
-          <li class="card"><h3>Pain scale board</h3><p>With visuals to identify what their pain is and communicate it.</p></li>
-          <li class="card"><h3>A mascot that speaks their language</h3><p>A little mascot throughout talks to the patient in the language that best suits them, like English or Chinese.</p></li>
-          <li class="card"><h3>The language of their support needs</h3><p>Declarative language for a child with severe PDA. Safety and autonomy language around food for a child with OCD or fear-based needs.</p></li>
-        </ul>
-        <p class="statement">Set up for eating disorder clinics with menu options, and for physio programs with each patient's activities.</p>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="band" aria-labelledby="voices-heading">
-      <div class="wrap">
-        <div class="center">
-          <p class="kicker">What people are saying</p>
-          <h2 id="voices-heading">Real people. <em>Real moments.</em></h2>
-        </div>
-        <figure class="featured">
-          <img src="https://cdn.shopify.com/s/files/1/0767/1893/2201/files/IMG_3465.png?v=1774158608" alt="Sophie, age 7, walking downstairs holding her MimBuddy" loading="lazy" decoding="async">
-          <figcaption>
-            <blockquote>“I love my MimBuddy!”</blockquote>
-            <p class="who">Sophie<span>Age 7</span></p>
-          </figcaption>
-        </figure>
-        <ul class="cards cards-3 quotes">
-          <li class="card"><p class="tag">Age 3</p><blockquote>“Do shoes go on my hands or feet? *giggles* MY FEET KIKI!”</blockquote><p class="who">Elly</p></li>
-          <li class="card"><p class="tag">Teacher</p><blockquote>“This is absolutely incredible. So clever and needed!”</blockquote><p class="who">Stacey</p></li>
-          <li class="card"><p class="tag">Occupational Therapist</p><blockquote>“Wow! I've got no words. This is brilliant.”</blockquote><p class="who">Mary</p></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="band tint" aria-labelledby="today-heading">
-      <div class="wrap narrow">
-        <h2 id="today-heading">How your hospital can improve today</h2>
-        <ol class="today">
-          <li class="helps">Ask at triage: “How do you communicate best? What helps when you're overwhelmed?”</li>
-          <li>Treat parents and carers as experts. They know what calms their child.</li>
-          <li>Reduce sensory load: a quieter space, dimmer lights, fewer people at once.</li>
-          <li class="helps">Explain before you act. Predictability prevents distress.</li>
-          <li class="helps">Offer other ways to communicate: AAC, a body map, a visual pain scale.</li>
-          <li class="helps">Respond to distress with regulation, not security. Distress is communication.</li>
-          <li>Train your team in CARE, with autistic-led organisations.</li>
-          <li>Appoint a disability liaison officer families can turn to.</li>
-        </ol>
-        <p class="statement">MimBuddy helps with 1, 4, 5 and 6 from the first shift.</p>
-      </div>
-    </section>
-
-    <section class="band dark center" aria-labelledby="mission-heading">
-      <div class="wrap narrow">
-        <h2 id="mission-heading" class="mission">Support for every neurodivergent patient, in every healthcare setting, across Australia and New Zealand.</h2>
-        <p>Neurodivergent patients deserve access to healthcare. The people caring for them deserve the tools to support them.</p>
-        <div class="cta-row"><a href="#book" class="btn btn-light">Book a 10-min call →</a></div>
-      </div>
-    </section>
-
-    <section id="book" class="band" aria-labelledby="book-heading">
-      <div class="wrap form-wrap">
-        <h2 id="book-heading" class="center">Book a 10-min call</h2>
-        <form id="book-form" class="signup" data-type="hospital-partnership" novalidate>
-          <label>Hospital or health service<input name="hospital" type="text" required data-missing="Please enter your hospital or health service." maxlength="150" autocomplete="organization"></label>
-          <label>Your name<input name="name" type="text" required data-missing="Please enter your name." maxlength="100" autocomplete="name"></label>
-          <label>Work email<input name="email" type="email" required data-missing="Please enter your work email address." maxlength="255" autocomplete="email"></label>
-          <label>Your role <span class="optional">(optional)</span>
-            <select name="role">
-              <option value="">Choose one</option>
-              <option>Nursing</option>
-              <option>Medical</option>
-              <option>Allied health</option>
-              <option>Executive or administration</option>
-              <option>Other</option>
-            </select>
-          </label>
-          <label>What would you like to explore? <span class="optional">(optional)</span><textarea name="message" rows="3" maxlength="1000"></textarea></label>
-          <p class="form-error" role="alert" hidden></p>
-          <button type="submit" class="btn">Request a call →</button>
-          <p class="small">Prefer email? Reach us at <a href="mailto:mickey@mimbuddy.com.au">mickey@mimbuddy.com.au</a></p>
-        </form>
-        <div class="form-done" role="status" hidden>
-          <h3>Thank you, we'll be in touch soon.</h3>
-          <p>We'll email you to find a time for a 10-minute call.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="band sources" aria-labelledby="sources-heading">
-      <div class="wrap narrow">
-        <h2 id="sources-heading">Sources</h2>
-        <ol>
-          <li id="src-1">Efron D et al. Patterns of presentation to a children's hospital emergency department of patients with autism and/or intellectual disability with behaviours of concern. Journal of Intellectual & Developmental Disability, 2023.</li>
-          <li id="src-2">Survey of 421 Australian parents of autistic children about hospital care. Journal of Autism and Developmental Disorders, 2021.</li>
-          <li id="src-3">The proportion of minimally verbal children with autism spectrum disorder in an Australian early intervention cohort. The Hopkins Centre, 2016.</li>
-          <li id="src-4">Pain assessment in children with cognitive impairment: systematic review and meta-analysis. European Journal of Pain, 2022.</li>
-          <li id="src-5">Tordjman S et al. Pain reactivity and plasma β-endorphin in children and adolescents with autistic disorder. PLoS ONE, 2009 (France).</li>
-          <li id="src-6">Restraint and seclusion of children with autism or ADHD presenting to an Australian children's hospital emergency department with mental health concerns. Journal of Paediatrics and Child Health, 2021.</li>
-          <li id="src-7">Hospital stays of children with intellectual disability in two Sydney children's hospitals (2017 data).</li>
-          <li id="src-8">Survey of 693 Australian registered nurses on autism and intellectual disability education, 2025.</li>
-          <li id="src-9">Karpur A et al. Health disparities among children with autism spectrum disorders: analysis of the National Survey of Children's Health 2016. Journal of Autism and Developmental Disorders, 2019 (USA).</li>
-          <li id="src-10">Weise J, Srasuebkul P, Trollor J. Potentially preventable hospitalisations of people with intellectual disability in New South Wales. Medical Journal of Australia, 2021.</li>
-          <li id="src-11">Trollor J et al. Cause of death and potentially avoidable deaths in Australian adults with intellectual disability. BMJ Open, 2017.</li>
-          <li id="src-12">Trollor J et al. Intellectual disability health content within medical curriculum: an audit of what our future doctors are taught. BMC Medical Education, 2016; and 20-year comparison, 2020.</li>
-          <li id="src-13">Trollor J et al. Intellectual disability health content within nursing curriculum: an audit of what our future nurses are taught. Nurse Education Today, 2016.</li>
-        </ol>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="foot">
-      <p class="foot-brand"><img class="brand-koala" src="/assets/mimbuddy-koala.png" alt="" width="256" height="256" loading="lazy"><img class="brand-word" src="/assets/mimbuddy-wordmark.png" alt="MimBuddy" width="640" height="181" loading="lazy"></p>
-      <a href="mailto:mickey@mimbuddy.com.au">mickey@mimbuddy.com.au</a>
-    </div>
-    <p class="copy">© 2026 MimBuddy. All rights reserved.</p>
-  </footer>
-
-  <script src="/script.js" defer></script>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

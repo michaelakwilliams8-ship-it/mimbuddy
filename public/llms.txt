@@ -1,12 +1,13 @@
 # MimBuddy
 
-> MimBuddy is the support layer for kids in hospital: a standalone hardware device with a screen, built that way for safety, that speaks their language, shows where it hurts and tells them what's next, from the ED to the ward.
+> MimBuddy is the bedside tool for supporting neurodivergent patients, from the ED, admission, to home. A standalone hardware device with a screen, built that way for safety, that speaks their language, shows where it hurts and tells them what's next.
 
 ## Pages
 
-- [For hospitals](https://mimbuddy.com.au/): the bedside tool for supporting neurodivergent patients, from the ED to the ward. Book a 10-minute call.
+- [For hospitals](https://mimbuddy.com.au/): the bedside tool for supporting neurodivergent patients, from the ED, admission, to home.
 - [For home](https://mimbuddy.com.au/home): the therapeutic support hub of childhood. Join the newsletter list.
 - [About us](https://mimbuddy.com.au/about): the founding team and our journey so far.
+- [Contact](https://mimbuddy.com.au/contact): book a 10-minute call.
 
 ## What's inside
 
@@ -27,5 +28,5 @@
 
 ## Contact
 
-- [Book a 10-minute call](https://mimbuddy.com.au/#book)
+- [Book a 10-minute call](https://mimbuddy.com.au/contact)
 - [Email Mickey](mailto:mickey@mimbuddy.com.au)

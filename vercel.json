@@ -1,13 +1,13 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/__l5e/:path*",
-      "destination": "https://create-joy-blocks.lovable.app/__l5e/:path*"
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
   "redirects": [
     { "source": "/:path*", "has": [{ "type": "host", "value": "www.mimbuddy.com.au" }], "destination": "https://mimbuddy.com.au/:path*", "permanent": true },
     { "source": "/hospitals", "destination": "/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/__l5e/:path*", "destination": "https://create-joy-blocks.lovable.app/__l5e/:path*" },
+    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
   ]
 }

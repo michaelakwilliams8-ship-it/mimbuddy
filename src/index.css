@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Comfortaa:wght@300;400;500;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 30 10% 21%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 30 10% 21%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 10% 21%;
+
+    --primary: 126 10% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 36 27% 91%;
+    --secondary-foreground: 30 10% 21%;
+
+    --muted: 36 27% 91%;
+    --muted-foreground: 27 7% 44%;
+
+    --accent: 126 14% 92%;
+    --accent-foreground: 30 10% 21%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 36 27% 91%;
+    --input: 36 27% 91%;
+    --ring: 126 10% 58%;
+
+    --radius: 1rem;
+
+    /* Mimbalu custom tokens */
+    --cream: 40 33% 97%;
+    --beige: 34 24% 90%;
+    --sage: 116 10% 58%;
+    --sage-light: 120 14% 92%;
+    /* Darker sage for text and buttons that need 4.5:1 contrast */
+    --sage-deep: 116 16% 33%;
+    /* Brand sage darkened just enough for 3:1 contrast in large headings */
+    --sage-mid: 116 10% 48%;
+    --dark: 30 10% 21%;
+    --mid: 27 7% 44%;
+    --gold: 28 48% 54%;
+
+    --font-display: 'Lora', serif;
+    --font-body: 'Comfortaa', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-body);
+    @apply bg-background text-foreground;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.7); }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 0 0 hsl(var(--sage) / 0); }
+  50% { box-shadow: 0 0 0 6px hsl(var(--sage) / 0.2); }
+}
+
+/* Faint paper grain over everything, as on quackedmarketing.com */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 200;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
