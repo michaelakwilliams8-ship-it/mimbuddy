@@ -1,0 +1,41 @@
+# MimBuddy for Hospitals
+
+> The MimBuddy is the bedside tool for supporting neurodivergent patients in hospital, from the ED to the ward. It speaks their language, shows where it hurts and tells them what's next. Made by Mimbalu, an Australian neuro-affirming tech company.
+
+The MimBuddy is a standalone hardware device with a screen, built that way for safety. It brings the tools families and clinicians already trust into one device: built with allied health therapists, nurses and neurodivergent families, it replaces laminated cards, printed schedules, timers and apps. Mimbalu has supported over 500 neurodivergent kids in clinics, at home and in the community.
+
+## What's inside
+
+- **Body map**: shows where it hurts, for patients with interoception differences or who are non-speaking.
+- **Pain scale**: more than 1–10, in ways that make sense to each patient.
+- **AAC**: a basic communication board for yes, no, stop, help and more.
+- **Social stories**: the ED, the ward and common procedures explained before they happen.
+- **Now / Next / Then**: what's happening right now, and what's coming.
+- **Timers**: "How long?" answered visually.
+- **Exploring feelings**: feelings role-modelled by a MimBuddy, with words to share them with a trusted adult.
+- **Self-care tasks**: familiar routines in an unfamiliar place.
+- **Familiar faces**: the people caring for them, through names, photos and fun facts.
+- **MimBuddy companions**: Kiki the Koala, Wally the Wombat, or a character customised for the hospital.
+
+## How it works
+
+1. **Set up**: Mimbalu is customised for each hospital: its wards, procedures and ED.
+2. **Personalise**: each patient's communication style, sensory needs and preferences are added in minutes.
+3. **Support**: staff and patients use it together, and it travels with the patient from triage to discharge.
+
+## Why it matters
+
+- Under the Australian Charter of Healthcare Rights, every patient has the right to access, safety, respect, partnership, information, privacy and to give feedback.
+- Reasonable adjustments for people with disability are required under the Disability Discrimination Act 1992. In New Zealand, the Code of Health and Disability Services Consumers' Rights includes the right to effective communication.
+- The MimBuddy puts the CARE Framework (Communication, Autonomy, Reduce barriers, Empathy), recommended by the autistic-led organisation Yellow Ladybugs, in clinicians' hands at the bedside.
+
+## Team
+
+- **Mickey Williams**, CEO: healthcare professional of 14 years, with 8 years supporting neurodivergent children, and mum to a wonderfully neurodivergent family.
+- **Sahil Yadav**, CTO: mechatronic engineer and software developer.
+
+## Contact
+
+- [Book a 10-minute call](https://www.mimbuddy.com.au/#book)
+- [Email Mickey](mailto:mickey@mimbalu.com)
+- [Mimbalu on LinkedIn](https://www.linkedin.com/company/mimbalu/)

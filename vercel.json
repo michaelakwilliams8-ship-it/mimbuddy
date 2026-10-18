@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/__l5e/:path*",
+      "destination": "https://create-joy-blocks.lovable.app/__l5e/:path*"
+    }
+  ],
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "mimbuddy.com.au" }], "destination": "https://www.mimbuddy.com.au/:path*", "permanent": true }
+  ]
+}
