@@ -1,26 +1,38 @@
 # MimBuddy for Hospitals
 
-> The MimBuddy is the bedside tool for supporting neurodivergent patients in hospital, from the ED to the ward. It speaks their language, shows where it hurts and tells them what's next. Made by Mimbalu, an Australian neuro-affirming tech company.
+> The MimBuddy speaks each neurodivergent patient's language, shows where it hurts and tells them what's next, from the ED to the ward. Made by Mimbalu, an Australian neuro-affirming tech company.
 
 The MimBuddy is a standalone hardware device with a screen, built that way for safety. It brings the tools families and clinicians already trust into one device: built with allied health therapists, nurses and neurodivergent families, it replaces laminated cards, printed schedules, timers and apps. Mimbalu has supported over 500 neurodivergent kids in clinics, at home and in the community.
 
-## What's inside
+## What it does
 
-- **Body map**: shows where it hurts, for patients with interoception differences or who are non-speaking.
-- **Pain scale**: more than 1–10, in ways that make sense to each patient.
-- **AAC**: a basic communication board for yes, no, stop, help and more.
-- **Social stories**: the ED, the ward and common procedures explained before they happen.
-- **Now / Next / Then**: what's happening right now, and what's coming.
-- **Timers**: "How long?" answered visually.
-- **Exploring feelings**: feelings role-modelled by a MimBuddy, with words to share them with a trusted adult.
-- **Self-care tasks**: familiar routines in an unfamiliar place.
-- **Familiar faces**: the people caring for them, through names, photos and fun facts.
-- **MimBuddy companions**: Kiki the Koala, Wally the Wombat, or a character customised for the hospital.
+**Knows the patient**
+- About me profile: who they are, how they communicate, what they need and what helps.
+- A friendly MimBuddy mascot speaks to the patient in the language that suits them best, such as English or Chinese.
+- It also uses the language of their support needs: declarative language for a child with PDA, or safety and autonomy language for OCD and fear-based needs, such as around food.
+
+**Shows what's next**
+- Today's plan: the day's flow, set up by staff (for example, "Today: X-ray").
+- Visual routine boards.
+- Customised social stories and procedure information, such as getting a blood test.
+- Wait timers.
+
+**Helps the patient say how they feel**
+- Feelings board, to talk about and process feelings alone or with caregivers.
+- Pain scale board, and visuals to show what the pain is and where.
+
+**Helps the patient feel safe and steady**
+- Calming activities that help up-regulate or down-regulate, depending on the patient's needs.
+- Support with activities of daily living during admissions and ED visits.
+- Staff profiles, so patients can get to know the people caring for them.
+
+**Set up for each service**
+- Emergency departments and wards, eating disorder clinics (menu options) and physio programs (activities).
 
 ## How it works
 
 1. **Set up**: Mimbalu is customised for each hospital: its wards, procedures and ED.
-2. **Personalise**: each patient's communication style, sensory needs and preferences are added in minutes.
+2. **Personalise**: each patient's About me profile is set up with them and the people they trust.
 3. **Support**: staff and patients use it together, and it travels with the patient from triage to discharge.
 
 ## Why it matters
