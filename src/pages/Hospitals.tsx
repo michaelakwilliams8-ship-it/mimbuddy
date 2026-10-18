@@ -1,7 +1,6 @@
 import AnnouncementBar from "@/components/AnnouncementBar";
 import Navbar from "@/components/Navbar";
 import HeroImage from "@/components/HeroImage";
-import Ticker from "@/components/Ticker";
 import FullWidthImage from "@/components/FullWidthImage";
 import Footer from "@/components/Footer";
 import Kicker from "@/components/Kicker";
@@ -11,7 +10,7 @@ import atrium from "@/assets/atrium-kiki-mimbuddy.jpg.asset.json";
 
 export const ONE_LINER = "The bedside tool for supporting neurodivergent patients, from the ED, admission, to home.";
 
-const h2 = "font-display text-[clamp(30px,3.2vw,44px)] font-normal leading-[1.15] tracking-tight mb-5";
+const h2 = "h-section";
 const body = "text-[15px] font-light text-mid leading-[1.8]";
 const button = "inline-block bg-sage-deep text-primary-foreground px-8 py-4 rounded-full text-sm font-semibold no-underline hover:bg-dark hover:-translate-y-0.5 transition-all";
 
@@ -56,7 +55,7 @@ const Hospitals = () => (
 
       <section aria-labelledby="hero-heading" className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center bg-background py-16 md:py-24 px-6 md:px-20">
         <div>
-          <h1 id="hero-heading" className="font-display text-[clamp(32px,3.8vw,50px)] font-normal leading-[1.2] tracking-tight mb-9">
+          <h1 id="hero-heading" className="h-display mb-9">
             The bedside tool for supporting <Underline>neurodivergent</Underline> patients, from the ED, admission, to home.
           </h1>
           <div className="flex gap-3 items-center flex-wrap">
@@ -67,24 +66,7 @@ const Hospitals = () => (
         <img src={atrium.url} alt="Kiki the Koala plush beside the MimBuddy on a hospital bench" loading="lazy" decoding="async" className="w-full max-w-[460px] mx-auto rounded-3xl shadow-[0_26px_60px_-32px_hsl(var(--sage)/0.5)]" />
       </section>
 
-      <Ticker />
 
-      <section aria-labelledby="problem-heading" className="bg-card py-20 md:py-28 px-6 md:px-20">
-        <div className="max-w-[1040px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
-          <div>
-            <Kicker>The problem</Kicker>
-            <h2 id="problem-heading" className="sr-only">The problem</h2>
-            <blockquote className="font-display italic text-[clamp(24px,2.6vw,34px)] leading-[1.35] m-0">
-              “She came to the emergency department in pain. Her distress didn't look calm, so security walked her out.”
-            </blockquote>
-          </div>
-          <div>
-            <h3 className={h2}>You're doing your <Underline>best</Underline></h3>
-            <p className={`${body} mb-6`}>You went into healthcare to help people. But most of us were never taught how to support neurodivergent patients.</p>
-            <p className="font-display text-[clamp(22px,2.2vw,28px)] leading-[1.35] m-0">It's not a people problem. It's a tools problem.</p>
-          </div>
-        </div>
-      </section>
 
       <FullWidthImage
         src="https://cdn.shopify.com/s/files/1/0767/1893/2201/files/coffee.table.MimHub.jpg?v=1774153443"
@@ -105,7 +87,7 @@ const Hospitals = () => (
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none p-0 m-0">
             {inside.map(([t, d]) => (
               <li key={t} className="bg-card rounded-3xl p-8">
-                <h3 className="font-display text-[20px] font-normal mb-2">{t}</h3>
+                <h3 className="h-card">{t}</h3>
                 <p className="text-[14px] font-light text-mid leading-[1.75] m-0">{d}</p>
               </li>
             ))}
@@ -122,7 +104,7 @@ const Hospitals = () => (
             {steps.map(([t, d], i) => (
               <li key={t}>
                 <div aria-hidden="true" className="w-14 h-14 rounded-full border-2 border-sage-deep text-sage-deep flex items-center justify-center font-display text-[24px] mb-5">{i + 1}</div>
-                <h3 className="font-display text-[22px] font-normal mb-2">{t}</h3>
+                <h3 className="h-card text-[22px]">{t}</h3>
                 <p className={`${body} m-0`}>{d}</p>
               </li>
             ))}
@@ -139,7 +121,7 @@ const Hospitals = () => (
             {care.map(([l, t, d]) => (
               <li key={l} className="bg-card rounded-3xl p-8">
                 <div aria-hidden="true" className="font-display text-[56px] leading-none text-sage-deep mb-4">{l}</div>
-                <h3 className="font-display text-[20px] font-normal mb-2">{t}</h3>
+                <h3 className="h-card">{t}</h3>
                 <p className="text-[14px] font-light text-mid leading-[1.75] m-0">{d}</p>
               </li>
             ))}
@@ -153,7 +135,7 @@ const Hospitals = () => (
       <section aria-labelledby="mission-heading" className="bg-beige text-center py-20 md:py-28 px-6 md:px-20">
         <div className="max-w-[760px] mx-auto">
           <img src="/assets/mimbuddy-koala.png" alt="" loading="lazy" className="h-20 w-auto mx-auto mb-6" />
-          <h2 id="mission-heading" className="font-display text-[clamp(28px,3.4vw,44px)] font-normal leading-[1.2] tracking-tight mb-6">
+          <h2 id="mission-heading" className="h-section mb-6">
             Support for every neurodivergent patient, in every healthcare setting, across Australia and New Zealand.
           </h2>
           <p className={`${body} text-[17px] mb-10`}>Neurodivergent patients deserve access to healthcare. The people caring for them deserve the tools to support them.</p>

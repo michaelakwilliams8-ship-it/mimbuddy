@@ -36,7 +36,7 @@ const About = () => (
       <section aria-labelledby="team-heading" className="bg-sage-light py-16 md:py-24 px-6 md:px-20">
         <div className="max-w-[1040px] mx-auto">
           <Kicker>About us</Kicker>
-          <h1 id="team-heading" className="font-display text-[clamp(32px,3.4vw,46px)] font-normal leading-[1.15] tracking-tight mb-12">
+          <h1 id="team-heading" className="h-display mb-12">
             Our <Underline>Founding</Underline> Team
           </h1>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 list-none p-0 m-0">
@@ -45,7 +45,7 @@ const About = () => (
                 <div className="aspect-[4/5] w-full max-w-[420px] rounded-2xl overflow-hidden bg-background">
                   <img src={f.photo} alt={`${f.name}, ${f.role} and co-founder of MimBuddy`} loading="lazy" decoding="async" className="w-full h-full object-cover object-top block" />
                 </div>
-                <h2 className="font-display text-[21px] font-normal mt-5 mb-1">{f.name}</h2>
+                <h2 className="h-card text-[22px] mt-6 mb-1">{f.name}</h2>
                 <div className="text-xs text-mid tracking-[1.5px] uppercase mb-4">{f.role}</div>
                 <p className="text-[15px] font-light text-mid leading-[1.8] mb-4">{f.bio}</p>
                 <a href={f.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-sage-deep font-medium">
@@ -59,14 +59,14 @@ const About = () => (
 
       <section aria-labelledby="journey-heading" className="bg-background py-20 md:py-24 px-6 md:px-20">
         <div className="max-w-[760px] mx-auto">
-          <h2 id="journey-heading" className="font-display text-[clamp(30px,3.2vw,44px)] font-normal leading-[1.15] tracking-tight mb-10">
+          <h2 id="journey-heading" className="h-section mb-10">
             Our journey <Underline>so far</Underline>
           </h2>
           <ol className="list-none p-0 m-0 border-l-2 border-sage pl-8 space-y-10">
             {journey.map(([t, d]) => (
               <li key={t} className="relative">
                 <span aria-hidden="true" className="absolute -left-[41px] top-1.5 w-4 h-4 rounded-full bg-sage-deep" />
-                <h3 className="font-display text-[22px] font-normal mb-1">{t}</h3>
+                <h3 className="h-card text-[22px] mb-1">{t}</h3>
                 <p className="text-[15px] font-light text-mid leading-[1.8] m-0">{d}</p>
               </li>
             ))}

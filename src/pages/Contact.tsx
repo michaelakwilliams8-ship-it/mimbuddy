@@ -14,7 +14,7 @@ const Contact = () => (
       <section aria-labelledby="contact-heading" className="bg-background py-16 md:py-24 px-6 md:px-20 text-center">
         <img src="/assets/mimbuddy-koala.png" alt="" className="h-20 w-auto mx-auto mb-6" />
         <Kicker>Contact</Kicker>
-        <h1 id="contact-heading" className="font-display text-[clamp(32px,3.6vw,48px)] font-normal leading-[1.15] tracking-tight mb-5">
+        <h1 id="contact-heading" className="h-display mb-5">
           Book a <Underline>10-min</Underline> call
         </h1>
         <p className="text-[15px] font-light text-mid leading-[1.8] max-w-[460px] mx-auto mb-10">

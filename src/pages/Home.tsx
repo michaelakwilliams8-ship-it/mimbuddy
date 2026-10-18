@@ -1,7 +1,6 @@
 import AnnouncementBar from "@/components/AnnouncementBar";
 import Navbar from "@/components/Navbar";
 import HeroImage from "@/components/HeroImage";
-import Ticker from "@/components/Ticker";
 import FullWidthImage from "@/components/FullWidthImage";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import SignupForm from "@/components/SignupForm";
@@ -10,7 +9,7 @@ import Kicker from "@/components/Kicker";
 import Underline from "@/components/Underline";
 import { ONE_LINER } from "@/pages/Hospitals";
 
-const h2 = "font-display text-[clamp(30px,3.2vw,44px)] font-normal leading-[1.15] tracking-tight mb-5";
+const h2 = "h-section";
 const body = "text-[15px] font-light text-mid leading-[1.8]";
 
 
@@ -26,7 +25,7 @@ const Home = () => (
 
       <section aria-labelledby="hero-heading" className="bg-background py-16 md:py-24 px-6 md:px-20 text-center">
         <Kicker>For home</Kicker>
-        <h1 id="hero-heading" className="font-display text-[clamp(36px,4.4vw,58px)] font-normal leading-[1.15] tracking-tight mb-9 max-w-[16ch] mx-auto">
+        <h1 id="hero-heading" className="h-display mb-9 max-w-[16ch] mx-auto">
           The therapeutic support hub of <Underline>childhood.</Underline>
         </h1>
         <a href="#register" className="inline-block bg-sage-deep text-primary-foreground px-8 py-4 rounded-full text-sm font-semibold no-underline hover:bg-dark hover:-translate-y-0.5 transition-all">
@@ -34,7 +33,6 @@ const Home = () => (
         </a>
       </section>
 
-      <Ticker />
 
       <section aria-labelledby="imagine-heading" className="bg-card py-20 md:py-28 px-6 md:px-20 text-center">
         <h2 id="imagine-heading" className="sr-only">Imagine you're 7</h2>

@@ -53,7 +53,7 @@ const SignupForm = ({ kind }: Props) => {
     return (
       <div className="max-w-[480px] mx-auto text-center bg-card border border-beige rounded-2xl p-8 shadow-sm" role="status">
         <img src="/assets/mimbuddy-koala.png" alt="" className="h-14 w-auto mx-auto mb-4" />
-        <h3 className="font-display text-xl mb-2">{hospital ? "Thank you, we'll be in touch soon." : "Thank you for joining."}</h3>
+        <h3 className="h-card text-[22px]">{hospital ? "Thank you, we'll be in touch soon." : "Thank you for joining."}</h3>
         {hospital && <p className="text-mid text-sm leading-relaxed m-0">We'll email you to find a time for a 10-minute call.</p>}
       </div>
     );
