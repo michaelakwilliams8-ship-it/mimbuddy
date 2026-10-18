@@ -20,9 +20,11 @@ She knows her market. Your job is to execute her vision well, not to invent one.
 - **For home:** parent-facing. Use no real person's story.
 - **About us:** the only page with the founding team and "our journey so far".
 - **Look:** mimbalu.com colours: cream, sage, deep sage green and warm brown.
-  Hero style chosen: Option B. A split layout: a Lora serif headline on the left with the italic
-  sage word "Neurodivergent", the line under it and a sage pill button; on the right, a rounded
-  photo of the device in a hospital. Body text is Inter, plain.
+  Hero style chosen: Option B. A split layout: headline on the left with the word
+  "Neurodivergent" in sage, the line under it and a sage pill button; on the right, a rounded
+  photo of the device in a hospital.
+- **Fonts:** Schoolbell for ALL headings, in a soft colour (warm brown #6b5f56, accents in sage),
+  never black. Body text: Inter, plain. NEVER Lora (rejected twice).
 - **Logo:** the koala head and the handwritten "Mimbuddy" wordmark, in `site/assets/`.
 - **The device:** a standalone hardware device with a screen, built that way for safety.
   It is NOT "offline" and it does NOT have "no screen".
