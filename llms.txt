@@ -1,6 +1,13 @@
-# MimBuddy for Hospitals
+# MimBuddy by Mimbalu
 
-> The MimBuddy speaks each neurodivergent patient's language, shows where it hurts and tells them what's next, from the ED to the ward. Made by Mimbalu, an Australian neuro-affirming tech company.
+> The MimBuddy is neuro-affirming support that goes where neurodivergent kids and patients go: the therapeutic support hub of childhood at home, and a bedside companion in hospital that speaks each patient's language, shows where it hurts and tells them what's next.
+
+## Pages
+
+- [For home](https://www.mimbuddy.com.au/home): for parents and families. Visual routines, timers, feelings boards, social stories and calming activities in one standalone device. Join the newsletter list.
+- [For hospitals](https://www.mimbuddy.com.au/hospitals): for hospitals and health services, from the ED to the ward. Book a 10-minute call.
+
+Made by Mimbalu, an Australian neuro-affirming tech company.
 
 The MimBuddy is a standalone hardware device with a screen, built that way for safety. It brings the tools families and clinicians already trust into one device: built with allied health therapists, nurses and neurodivergent families, it replaces laminated cards, printed schedules, timers and apps. Mimbalu has supported over 500 neurodivergent kids in clinics, at home and in the community.
 
@@ -26,7 +33,7 @@ The MimBuddy is a standalone hardware device with a screen, built that way for s
 - Support with activities of daily living during admissions and ED visits.
 - Staff profiles, so patients can get to know the people caring for them.
 
-**Set up for each service**
+**In hospital, set up for each service**
 - Emergency departments and wards, eating disorder clinics (menu options) and physio programs (activities).
 
 ## How it works
