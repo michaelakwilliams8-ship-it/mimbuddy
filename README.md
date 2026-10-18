@@ -1,6 +1,6 @@
 # MimBuddy for Hospitals
 
-Website for www.mimbuddy.com.au: the MimBuddy by Mimbalu, with a page for families (`/home`) and one for hospitals (`/hospitals`).
+Website for www.mimbuddy.com.au, with a page for hospitals (`/hospitals`) and one for home (`/home`).
 
 Plain HTML, CSS and a little JavaScript, no build step, so every word is in the
 page source for search engines and AI assistants to read. Deploy on Vercel as a
@@ -17,9 +17,9 @@ Then visit http://localhost:8000. Images under `/__l5e/` only load once deployed
 
 ## Files
 
-- `index.html`: the front page, with a door to each audience
-- `home.html`: For home, for parents and families, with the newsletter sign-up
-- `hospitals.html`: For hospitals, for health services, with the booking form
+- `index.html`: the front page, with a door to each
+- `hospitals.html`: For hospitals (organisations), with the booking form
+- `home.html`: For home (parents), with the newsletter sign-up
 - `styles.css`: styles, with the colour tokens at the top
 - `script.js`: the newsletter and booking forms
 - `llms.txt`: a plain-text summary for AI assistants
