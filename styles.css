@@ -331,3 +331,11 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .journey { display: grid; gap: 28px; margin-top: 32px; border-left: 2px solid var(--sage); padding-left: 28px; }
 .journey h3 { font-size: 22px; margin-bottom: 4px; }
 .journey p { margin: 0; color: var(--mid); }
+
+/* MimBuddy logo: koala + handwritten wordmark */
+.brand, .foot-brand { display: flex; align-items: center; gap: 10px; margin: 0; text-decoration: none; }
+.brand-koala { width: 52px; height: auto; }
+.brand-word { width: auto; height: 32px; }
+.foot-brand .brand-koala { width: 52px; margin: 0; }
+.foot-brand .brand-word { height: 36px; margin: 0; }
+.foot img.brand-koala, .foot img.brand-word { margin: 0; }
