@@ -1,6 +1,6 @@
 # MimBuddy
 
-> MimBuddy is the bedside tool for supporting neurodivergent patients, from the ED, admission, to home. A standalone hardware device with a screen, built that way for safety, that speaks their language, shows where it hurts and tells them what's next.
+> MimBuddy is the bedside tool for supporting neurodivergent patients, from the ED, admission, to home. A standalone hardware device with a screen, built that way for safety.
 
 ## Pages
 

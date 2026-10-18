@@ -56,13 +56,9 @@ const Hospitals = () => (
 
       <section aria-labelledby="hero-heading" className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center bg-background py-16 md:py-24 px-6 md:px-20">
         <div>
-          <Kicker>For hospitals</Kicker>
-          <h1 id="hero-heading" className="font-display text-[clamp(36px,4.4vw,58px)] font-normal leading-[1.15] tracking-tight mb-6">
-            Speaks their language.<br />
-            Shows where it <Underline>hurts.</Underline><br />
-            Tells them what's next.
+          <h1 id="hero-heading" className="font-display text-[clamp(32px,3.8vw,50px)] font-normal leading-[1.2] tracking-tight mb-9">
+            The bedside tool for supporting <Underline>neurodivergent</Underline> patients, from the ED, admission, to home.
           </h1>
-          <p className={`${body} text-[17px] max-w-[520px] mb-9`}>{ONE_LINER}</p>
           <div className="flex gap-3 items-center flex-wrap">
             <a href="/contact" className={button}>Book a 10-min call →</a>
             <a href="#how" className="text-sm font-medium text-mid hover:text-foreground no-underline transition-colors px-4 py-4">How it works ↓</a>
