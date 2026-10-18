@@ -1,30 +1,25 @@
 # MimBuddy
 
-Website for www.mimbuddy.com.au: For hospitals (`/`), For home (`/home`), About us
-(`/about`) and Contact (`/contact`). Built on the mimbalu.com design.
+Website for www.mimbuddy.com.au: For hospitals (`/`), For home (`/home`),
+About us (`/about`) and Contact (`/contact`).
 
-Vite, React, TypeScript and Tailwind. Every page is prerendered to plain HTML at
-build time (`src/prerender.tsx`), so search engines and AI tools can read it.
+Plain HTML and CSS in `site/`, in the quackedmarketing.com style: Schoolbell
+headings, Inter body text. `npm run build` copies `site/` to `dist/`, which
+Vercel serves.
 
 ## Run locally
 
 ```sh
-npm install
-npm run dev     # http://localhost:8080
-npm run build   # production build in dist/
+cd site && python3 -m http.server 8000
 ```
 
-## Where things are
+## Files
 
-- `src/pages/`: one file per page
-- `src/components/`: header, footer, forms and shared pieces
-- `src/seo.ts`: each page's title and description
-- `public/`: logo files, favicons, `llms.txt`, `robots.txt`, `sitemap.xml`
+- `site/*.html`: the four pages
+- `site/styles.css`: styles (colour tokens at the top)
+- `site/script.js`: the booking and newsletter forms, and scroll fades
+- `site/assets/`: the koala and wordmark
 
-## Shared with the old Mimbalu site
-
-- Both forms save to the Mimbalu Supabase `registrations` table (keys in
-  `.env`), which also syncs to the Google Sheet. Hospital calls are saved as
-  `hospital-partnership`; newsletter sign-ups with the reader's role.
-- A few images are still hosted by Lovable and reached through the `/__l5e`
-  rewrite in `vercel.json`.
+Both forms save to the Mimbalu Supabase `registrations` table, which syncs to
+the Google Sheet: hospital calls as `hospital-partnership`, newsletter sign-ups
+with the reader's role.
