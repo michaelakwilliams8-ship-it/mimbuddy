@@ -4,10 +4,10 @@
 
 ## Pages
 
-- [For hospitals](https://mimbuddy.com.au/): the bedside tool for supporting neurodivergent patients, from the ED, admission, to home.
-- [For home](https://mimbuddy.com.au/home): the therapeutic support hub of childhood. Join the newsletter list.
-- [About us](https://mimbuddy.com.au/about): the founding team and our journey so far.
-- [Contact](https://mimbuddy.com.au/contact): book a 10-minute call.
+- [For hospitals](https://www.mimbuddy.com.au/): the bedside tool for supporting neurodivergent patients, from the ED, admission, to home.
+- [For home](https://www.mimbuddy.com.au/home): the therapeutic support hub of childhood. Join the newsletter list.
+- [About us](https://www.mimbuddy.com.au/about): the founding team and our journey so far.
+- [Contact](https://www.mimbuddy.com.au/contact): book a 10-minute call.
 
 ## What's inside
 
@@ -28,5 +28,5 @@
 
 ## Contact
 
-- [Book a 10-minute call](https://mimbuddy.com.au/contact)
+- [Book a 10-minute call](https://www.mimbuddy.com.au/contact)
 - [Email Mickey](mailto:mickey@mimbuddy.com.au)

@@ -1,6 +1,6 @@
 # MimBuddy
 
-Website for mimbuddy.com.au: For hospitals (`/`), For home (`/home`), About us
+Website for www.mimbuddy.com.au: For hospitals (`/`), For home (`/home`), About us
 (`/about`) and Contact (`/contact`). Built on the mimbalu.com design.
 
 Vite, React, TypeScript and Tailwind. Every page is prerendered to plain HTML at

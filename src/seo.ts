@@ -1,6 +1,6 @@
 // Per-page <head> tags, added to each prerendered page at build time
 // (src/prerender.tsx). Shared tags such as og:image live in index.html.
-const SITE = "https://mimbuddy.com.au";
+const SITE = "https://www.mimbuddy.com.au";
 
 type PageMeta = { title: string; description: string };
 
