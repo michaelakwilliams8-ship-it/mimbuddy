@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mimbuddy.com.au/sitemap.xml
+Sitemap: https://mimbuddy.com.au/sitemap.xml

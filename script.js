@@ -35,7 +35,7 @@ document.querySelectorAll('form.signup').forEach((form) => {
       isHospital ? 'Hospital or health service: ' + f.hospital.value.trim() : null,
       isHospital && f.role.value ? 'Role: ' + f.role.value : null,
       f.message.value.trim() || null,
-      'Sent from www.mimbuddy.com.au',
+      'Sent from mimbuddy.com.au',
     ].filter(Boolean).join('\n');
     const type = isHospital ? form.dataset.type : (f.iam.value || form.dataset.type);
 
@@ -58,7 +58,7 @@ document.querySelectorAll('form.signup').forEach((form) => {
       done.setAttribute('tabindex', '-1');
       done.focus();
     } catch {
-      showError('Something went wrong. Please try again, or email hello@mimbalu.com.');
+      showError('Something went wrong. Please try again, or email mickey@mimbuddy.com.au.');
       button.disabled = false;
       button.textContent = label;
     }

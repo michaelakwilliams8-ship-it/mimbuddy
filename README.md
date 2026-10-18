@@ -1,6 +1,6 @@
 # MimBuddy for Hospitals
 
-Website for www.mimbuddy.com.au, with a page for hospitals (`/hospitals`) and one for home (`/home`).
+Website for mimbuddy.com.au: the hospital page at `/`, plus For home (`/home`) and About us (`/about`).
 
 Plain HTML, CSS and a little JavaScript, no build step, so every word is in the
 page source for search engines and AI assistants to read. Deploy on Vercel as a
@@ -17,13 +17,13 @@ Then visit http://localhost:8000. Images under `/__l5e/` only load once deployed
 
 ## Files
 
-- `index.html`: the front page, with a door to each
-- `hospitals.html`: For hospitals (organisations), with the booking form
+- `index.html`: For hospitals (organisations), with the booking form
 - `home.html`: For home (parents), with the newsletter sign-up
+- `about.html`: About us, with the founding team and our journey
 - `styles.css`: styles, with the colour tokens at the top
 - `script.js`: the newsletter and booking forms
 - `llms.txt`: a plain-text summary for AI assistants
-- `vercel.json`: redirects `mimbuddy.com.au` to `www.`, and proxies `/__l5e/`
+- `vercel.json`: redirects `www.` and the old `/hospitals` to `mimbuddy.com.au`, and proxies `/__l5e/`
 - `assets/`: local images
 
 Fonts load from Google Fonts: Lora (headings) and Comfortaa (everything else).
@@ -42,5 +42,5 @@ Line icons: Lucide (ISC).
 
 ## Before launch
 
-- Replace "About [X] minutes per patient" in `hospitals.html`.
+- Replace "About [X] minutes per patient" in `index.html`.
 - Add sources for the statistics in "The problem" and "You're doing your best".

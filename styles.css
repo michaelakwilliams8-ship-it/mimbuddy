@@ -313,3 +313,21 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 /* Footer: wordmark and contact */
 .foot { grid-template-columns: 1fr; justify-items: center; gap: 12px; }
 @media (min-width: 760px) { .foot { grid-template-columns: 1fr auto; justify-items: start; align-items: center; } }
+
+/* Front page hero: the one-line promise */
+.hero h1.hero-promise { font-size: clamp(38px, 4.6vw, 60px); }
+.hero h1.hero-promise span { white-space: normal; }
+.lines { font: 400 clamp(20px, 2vw, 24px)/1.5 var(--display); margin: 0 0 20px; }
+
+/* How MimBuddy helps */
+.helps-cards { margin-bottom: 40px; }
+.helps-cards h3 { font-size: 26px; margin-bottom: 16px; }
+.ticks { display: grid; gap: 12px; }
+.ticks li { position: relative; padding-left: 26px; color: var(--mid); line-height: 1.6; }
+.ticks li::before { content: ""; position: absolute; left: 2px; top: 7px; width: 12px; height: 7px; border-left: 2.5px solid var(--sage-deep); border-bottom: 2.5px solid var(--sage-deep); transform: rotate(-45deg); }
+
+/* About us */
+.page-title { font-size: clamp(36px, 4.4vw, 56px); line-height: 1.12; }
+.journey { display: grid; gap: 28px; margin-top: 32px; border-left: 2px solid var(--sage); padding-left: 28px; }
+.journey h3 { font-size: 22px; margin-bottom: 4px; }
+.journey p { margin: 0; color: var(--mid); }
