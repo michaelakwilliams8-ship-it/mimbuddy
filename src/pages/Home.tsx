@@ -13,17 +13,6 @@ import { ONE_LINER } from "@/pages/Hospitals";
 const h2 = "font-display text-[clamp(30px,3.2vw,44px)] font-normal leading-[1.15] tracking-tight mb-5";
 const body = "text-[15px] font-light text-mid leading-[1.8]";
 
-const inside = [
-  ["Social stories", "Customised social stories."],
-  ["About me", "User profiles about your child."],
-  ["Visual routine boards", "Each step, one picture at a time."],
-  ["Timers", "To help with waits."],
-  ["Calming activities", "Activities that up-regulate or down-regulate, depending on your child's needs."],
-  ["Feelings board", "So your child can talk about and process their feelings, connect with you and communicate."],
-  ["Pain scale board", "With visuals to identify what the pain is and communicate it."],
-  ["Speaks their language", "A little mascot talks to your child in the language that best suits them, like English or Chinese."],
-  ["Speaks to their needs", "Declarative language for a child with PDA. Safety and autonomy language around food for OCD or fear-based needs."],
-];
 
 const Home = () => (
   <>
@@ -70,21 +59,6 @@ const Home = () => (
         </div>
       </section>
 
-      <section aria-labelledby="inside-heading" className="bg-background py-20 md:py-24 px-6 md:px-20">
-        <div className="max-w-[1100px] mx-auto">
-          <Kicker>Meet the MimBuddy</Kicker>
-          <h2 id="inside-heading" className={h2}>What's <Underline>inside</Underline></h2>
-          <p className={`${body} max-w-[640px] mb-10`}>It brings the tools families and clinicians already trust into one standalone device, built that way for safety.</p>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none p-0 m-0">
-            {inside.map(([t, d]) => (
-              <li key={t} className="bg-card rounded-3xl p-8">
-                <h3 className="font-display text-[20px] font-normal mb-2">{t}</h3>
-                <p className="text-[14px] font-light text-mid leading-[1.75] m-0">{d}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       <FullWidthImage
         src="https://cdn.shopify.com/s/files/1/0767/1893/2201/files/coffee.table.MimHub.jpg?v=1774153443"
