@@ -53,6 +53,8 @@ She knows her market. Your job is to execute her vision well, not to invent one.
 - Headings, examples, stories, statistics or features she didn't give you.
 - Content carried over from mimbalu.com, Starlight or the pitch deck unless she asks for it.
 - The words "offline", "special needs", "suffering" or "challenging behaviour".
+- Any mention of Yellow Ladybugs, or calling the values the "CARE Framework". Use the four values
+  (Communication, Autonomy, Reduce barriers, Empathy) on their own, with no credit.
 
 ## What went wrong before (don't repeat it)
 
