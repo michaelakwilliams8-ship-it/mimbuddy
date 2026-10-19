@@ -59,12 +59,12 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .center .lead { margin: 0 auto; }
 
 /* Hero */
-.hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(40px, 5vw, 72px); align-items: center;
-  padding: clamp(56px, 6vw, 80px) var(--gutter) clamp(72px, 7vw, 100px); max-width: 1440px; margin: 0 auto; }
-.hero h1 { font-size: clamp(44px, 5vw, 72px); line-height: 1.12; margin-bottom: 24px; }
+.hero { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 96px); align-items: center;
+  padding: clamp(64px, 7vw, 110px) var(--gutter); max-width: 1440px; margin: 0 auto; }
+.hero h1 { font-size: clamp(42px, 4.4vw, 64px); line-height: 1.15; margin-bottom: 22px; }
 .hero .lead { margin-bottom: 36px; }
 .hero-photo { border-radius: 28px; overflow: hidden; box-shadow: 0 30px 60px -36px rgba(75, 97, 72, .6); }
-.hero-photo img { width: 100%; aspect-ratio: 7 / 8; object-fit: cover; }
+.hero-photo img { width: 100%; aspect-ratio: 1; object-fit: cover; }
 @media (max-width: 860px) { .hero { grid-template-columns: 1fr; } .hero-photo img { aspect-ratio: 4 / 3; } }
 
 /* What's inside */
@@ -109,3 +109,12 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .foot nav a:hover { color: var(--dark); }
 .foot-email { color: var(--dark); }
 .copy { max-width: 1120px; margin: 32px auto 0; font-size: 13px; color: var(--mid); }
+
+/* Full-width photos, as on mimbalu.com */
+.full-photo img { width: 100%; max-height: 82vh; object-fit: cover; }
+.full-photo-top img { max-height: 78vh; }
+
+/* Centred section with a rounded photo */
+.mission .lead { margin-bottom: 40px; }
+.center-photo { margin: 0 auto 40px; max-width: 360px; }
+.center-photo img { width: 100%; border-radius: 24px; box-shadow: 0 26px 60px -32px rgba(75, 97, 72, .5); }
